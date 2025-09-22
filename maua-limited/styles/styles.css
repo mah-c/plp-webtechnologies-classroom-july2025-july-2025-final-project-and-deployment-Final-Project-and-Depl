@@ -1,0 +1,465 @@
+/* ===========================
+   General Page Styling
+   =========================== */
+body {
+  font-family: sans-serif; /* Clean, readable default font */
+  background-color: rgb(
+    206,
+    226,
+    202
+  ); /* Soft green background to match floral theme */
+  align-content: center; /* Centers content in flex/grid contexts */
+  margin: 10px 50px; /* Top/bottom:10px, Left/right:50px for spacing */
+}
+
+/* ===========================
+   Navigation Bar Styling
+   =========================== */
+.nav-bar {
+  background-color: rgb(
+    238,
+    227,
+    213
+  ); /* Light beige background for contrast */
+  margin: 0px;
+  padding: 10px;
+  width: 100%; /* Full width across the page */
+}
+
+.nav-bar ul {
+  display: flex; /* Horizontal layout of nav items */
+  justify-content: end; /* Aligns links to the right */
+  list-style: none; /* Removes bullet points */
+}
+
+.nav-bar a {
+  color: black; /* Link text color */
+  text-decoration: none; /* Removes underline */
+  font-size: 18px;
+  border: 1px solid black; /* Adds border around links */
+  padding: 10px;
+  border-radius: 5px; /* Rounded corners */
+  margin: 5px;
+}
+
+.nav-bar a:hover {
+  background-color: black; /* Invert colors on hover for emphasis */
+  color: white;
+  padding: 10px;
+}
+
+/* ===========================
+   Hero Section (Home Page)
+   =========================== */
+.home-box {
+  position: relative; /* Allows positioning of text overlay inside */
+  width: 100%;
+  height: 650px; /* Large hero banner height */
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.text-overlay {
+  position: absolute; /* Overlay text on the hero image */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Perfect center alignment */
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.7); /* Soft shadow for readability */
+  padding: 10px 20px;
+}
+
+/* ===========================
+   Home About Section Styling
+   =========================== */
+.home-about {
+  display: flex; /* Image and text side by side */
+}
+
+.motto h2 {
+  font-size: 50px;
+  font-weight: normal;
+  letter-spacing: 7px; /* Spaced letters for a stylish look */
+}
+
+.home-about img {
+  width: 600px;
+  height: 500px;
+  margin-right: 50px;
+}
+
+.home-about p {
+  font-size: 20px;
+  line-height: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(100, 99, 98); /* Soft gray text for easy reading */
+  padding-right: 90px;
+}
+
+.home-about button {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-top: 60px;
+  padding: 10px;
+}
+
+.home-about a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 50px;
+}
+
+/* ===========================
+   Flower Highlights Section
+   =========================== */
+.flowers {
+  display: flex;
+  justify-content: space-between; /* Space images evenly */
+  background-color: rgb(192, 214, 193); /* Slightly darker green background */
+  margin-top: 50px;
+}
+
+.flowers img {
+  height: 400px;
+  width: 400px;
+  margin: 10px;
+}
+
+.flowers p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* ===========================
+   About Page Content Styling
+   =========================== */
+.about-content {
+  display: flex;
+  justify-content: center;
+}
+
+.about-content img {
+  height: 350px;
+  width: 500px;
+  margin: 5px;
+}
+
+.about-content p {
+  margin: 5px 70px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-right: 150px;
+}
+
+/* ===========================
+   FAQ Section Styling
+   =========================== */
+.faq {
+  display: grid;
+  grid-template-columns: repeat(2, max-content); /* Two-column grid layout */
+  background-color: rgb(213, 241, 204);
+}
+
+.faq-title {
+  margin-right: 100px;
+  margin-left: 5px;
+}
+
+.faq-title h2 {
+  font-weight: lighter;
+  font-size: 40px;
+  padding-right: 150px;
+}
+
+.faq-content {
+  max-width: 50%;
+  display: block;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.faq-content h3 {
+  text-decoration: underline;
+}
+
+/* ===========================
+   Farm Location Section Styling
+   =========================== */
+.farm-location {
+  background-color: rgb(213, 241, 204);
+  margin-top: 150px;
+  height: 600px;
+}
+
+.farm-location h1 {
+  margin: 10px 30px;
+  font-size: 40px;
+}
+
+.farm-location img {
+  height: 300px;
+  width: 100%;
+}
+
+.farms {
+  display: flex;
+  justify-content: center;
+}
+
+.farm {
+  margin: 0px 50px;
+}
+
+.farm .farms h3 {
+  font-size: 35px;
+}
+
+.farm .farms p {
+  font-size: 20px;
+}
+
+/* ===========================
+   Products Page Grid
+   =========================== */
+.products {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    max-content
+  ); /* 4 columns of product cards */
+  gap: 70px; /* Space between products */
+  margin-bottom: 250px;
+}
+
+.products .product {
+  height: 250px;
+  width: 150px;
+  margin: 50px;
+}
+
+.product p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product h5 {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.product img {
+  height: 350px;
+  width: 250px;
+  border-radius: 20px; /* Rounded corners for images */
+}
+
+/* ===========================
+   Contact Page Styling
+   =========================== */
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.contacts h3 {
+  font-size: 35px;
+}
+
+.contacts p {
+  font-size: 20px;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback input {
+  height: 40px;
+  width: 500px;
+  margin-bottom: 5px;
+}
+
+.feedback button {
+  width: 200px;
+  height: 30px;
+  margin: 5px 0px;
+  font-size: 18px;
+}
+
+/* ===========================
+   Footer / Social Icons
+   =========================== */
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid #333;
+  font-size: 20px;
+  margin-top: 5px;
+  bottom: 0px;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #333; /* Default dark background */
+  color: white;
+  border-radius: 50%; /* Circular icon buttons */
+  text-decoration: none;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+}
+
+/* Hover color changes for each platform */
+.social-icon.facebook:hover {
+  background-color: #3b5998; /* Facebook blue */
+}
+.social-icon.instagram:hover {
+  background-color: #e4405f; /* Instagram pink/red */
+}
+.social-icon.twitter:hover {
+  background-color: #1da1f2; /* Twitter blue */
+}
+
+/* ===========================
+   Responsive Design
+   Adjusts layout for tablets
+   and mobile devices
+   =========================== */
+@media (max-width: 1024px) {
+  .text-overlay {
+    font-size: 60px;
+  }
+  .home-about img {
+    width: 400px;
+    height: auto;
+  }
+  .about-content img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 10px 20px;
+  }
+
+  .nav-bar ul {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .nav-bar a {
+    width: 50%; /* Make links 50%-width for small screens */
+    box-sizing: border-box;
+  }
+
+  .text-overlay {
+    font-size: 40px;
+    padding: 5px;
+  }
+
+  .home-about {
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center;
+  }
+
+  .home-about img {
+    width: 90%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .home-about p {
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .home-about a {
+    padding: 0;
+  }
+
+  .motto h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .flowers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flowers img {
+    width: 90%;
+    height: auto;
+  }
+
+  .products {
+    grid-template-columns: 1fr; /* Single column product list */
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+
+  .products .product {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-content {
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+  }
+
+  .faq {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .faq-title,
+  .faq-content {
+    max-width: 100%;
+    margin: 10px auto;
+  }
+
+  .faq-title h2 {
+    font-size: 28px;
+    padding: 0;
+  }
+
+  .farm-location {
+    height: auto;
+  }
+
+  .contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feedback input,
+  .feedback textarea {
+    width: 100%;
+  }
+}

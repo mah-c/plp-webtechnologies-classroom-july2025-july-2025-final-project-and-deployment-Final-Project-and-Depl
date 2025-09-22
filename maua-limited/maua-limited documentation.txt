@@ -1,0 +1,84 @@
+# 🌸 Maua Limited Website
+
+A simple, responsive flower business website showcasing Maua Limited’s products, contact information, and company details.  
+The project demonstrates clean front-end development using **HTML5**, **CSS3**, **JS**and **Font Awesome** icons.
+
+---
+
+## 📑 Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Folder Structure](#folder-structure)
+- [Getting Started](#getting-started)
+- [Live Demo](#live-demo)
+- [Future Enhancements](#future-enhancements)
+
+---
+
+## Overview
+Maua Limited provides fresh flower arrangements for weddings, gifts, and décor.  
+This website serves as a professional online presence where customers can:
+- Explore available flower products
+- View farm locations
+- Get contact details and send feedback
+
+---
+
+## Features
+- **Home Page** – Hero image, company motto (*Freshness Guaranteed*), and highlights of flower offerings.
+- **Products Page** – Displays wedding bouquets, gift bouquets, home décor, and office décor arrangements with images and descriptions.
+- **Contact Page** – Company address, business hours, social media links, and a feedback form.
+- **Responsive Design** – Works across desktop and mobile devices.
+- **Social Media Integration** – Facebook, Instagram, and Twitter icons using Font Awesome.
+
+---
+
+## Technologies
+- **HTML5** – Website structure
+- **CSS3** – Styling and responsive layout (`styles/styles.css`)
+- **Font Awesome** – Social media icons
+- **JavaScript** – Interactivity via `scripts/script.js`
+
+---
+
+## Folder Structure
+maua-limited/
+│
+├── pages/
+│  └── index.html # Home page
+│  └── about.html # About page
+│  └──products.html # Products page
+│  └──contact.html # Contact page
+├── styles/
+│ └── styles.css # CSS styles
+├── scripts/
+│ └── script.js # Optional JavaScript
+└── assets/
+   └── flowers/ # Image assets
+
+---
+
+## Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/mah-c/maua-limited.git
+cd maua-limited
+2️⃣ Open in a Browser
+
+Simply open index.html in any web browser.
+
+Live Demo
+
+You can view the live site on GitHub Pages 
+👉 https://mah-c.github.io/maua-limited/
+
+Future Enhancements
+-> Implement a shopping cart and checkout functionality.
+-> Integrate a database backend to store customer feedback.
+-> Add a blog section for flower care tips and promotions.
+
+License
+
+This project is released under the MIT License – you are free to use, modify, and distribute it.
