@@ -63,7 +63,7 @@ maua-limited/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/mah-c/maua-limited.git
+git clone https://github.com/mah-c/mauaLtd.git
 cd maua-limited
 2️⃣ Open in a Browser
 
@@ -72,7 +72,7 @@ Simply open index.html in any web browser.
 Live Demo
 
 You can view the live site on GitHub Pages 
-👉 https://mah-c.github.io/maua-limited/
+👉 https://mah-c.github.io/mauaLtd/
 
 Future Enhancements
 -> Implement a shopping cart and checkout functionality.
@@ -82,3 +82,4 @@ Future Enhancements
 License
 
 This project is released under the MIT License – you are free to use, modify, and distribute it.
+
